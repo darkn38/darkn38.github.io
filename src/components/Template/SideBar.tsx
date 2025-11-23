@@ -15,17 +15,17 @@ const SideBar: React.FC = () => {
       <section id="intro">
         <Link href="/" className="logo">
           <Image
-            src="/images/me.jpg"
-            alt="Michael D'Angelo"
+            src="/images/me1.png"
+            alt="Christian Jay Medallo"
             width={200}
             height={200}
             priority
           />
         </Link>
         <header>
-          <h2>Michael D&apos;Angelo</h2>
+          <h2>Christian Jay Medallo</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="mailto:cjaymknight@gmail.com">cjaymknight@gmail.com</a>
           </p>
         </header>
       </section>
@@ -33,13 +33,9 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Michael. I am a{' '}
-          <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-          alumnus, and the co-founder and CTO of{' '}
-          <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of
-          Engineering at <a href="https://usesmileid.com">SmileID</a>,
-          co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-          co-founded <a href="https://matroid.com">Matroid</a>.
+          Hi, I&apos;m Christian. I am a{' '}
+          <a href="https://cit.edu">Cebu Institute of Technology</a> graduating student looking for an internship. I am confident with my
+          Web Development Skills and also aspiring to be a Systems Administrator.
         </p>
         <ul className="actions">
           <li>
@@ -59,7 +55,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Christian Jay Medallo <Link href="/">cjaymknight@gmail.com</Link>.
         </p>
       </section>
     </section>

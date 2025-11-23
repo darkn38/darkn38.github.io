@@ -9,47 +9,30 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'UniVERS | click for link to website',
+    link: 'https://univers.momoyan.org',
+    image: '/images/projects/univers.png',
+    date: '2025-03-25',
     desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+      'Is a web-based platform designed to streamline the reservation ' +
+      'of university venues and equipment. It provides an automated booking process ' +
+      'with real time availability tracking, structured approval workflows and automated ' +
+      'notifications.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'NAS Application and Management System',
+     subtitle: 'Web based with mobile integration.',
+    image: '/images/projects/nasams.png',
+    date: '2025-02-11',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'Is a digital platform that helps manage scholarship applications for non-academic scholars or working scholars at Cebu Institute of Technology University. This system aims to replace manual, paper-based processes with a more efficient, automated, and user-friendly digital solution. It allows students to submit applications, track their status, and receive updates while enabling administrators to review, approve, and manage scholarship data easily.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'School Event Management System',
+    image: '/images/projects/sems.png',
+    date: '2024-11-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+      'Is designed to streamline the management of school events, enabling easy registration, login, and user management functionalities. This project aims to provide a user-friendly interface for both students and administrators.',
   },
 ];
 

@@ -12,8 +12,7 @@ const getRows = (courses: CourseType[]) =>
   courses
     .sort((a, b) => {
       let ret = 0;
-      if (a.university > b.university) ret = -1;
-      else if (a.university < b.university) ret = 1;
+      if (a.title > b.title) ret = 1;
       else if (a.number > b.number) ret = 1;
       else if (a.number < b.number) ret = -1;
       return ret;
@@ -30,7 +29,7 @@ const Courses: React.FC<CoursesProps> = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Selected Courses</h3>
+      <h3>Courses</h3>
     </div>
     <ul className="course-list">{getRows(data)}</ul>
   </div>
